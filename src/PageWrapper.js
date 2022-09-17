@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from "react";
 
 function PageWrapper(props) {
@@ -398,23 +401,7 @@ function PageWrapper(props) {
 
               {props.children}
 
-              <div className="topbar-filter">
-                <label>Movies per page:</label>
-                <select>
-                  <option value="range">5 Movies</option>
-                  <option value="saab">10 Movies</option>
-                </select>
-                <div className="pagination2">
-                  <span>Page 1 of 2:</span>
-                  <a className="active" href="#">
-                    1
-                  </a>
-                  <a href="#">2</a>
-                  <a href="#">
-                    <i className="ion-arrow-right-b"></i>
-                  </a>
-                </div>
-              </div>
+             
             </div>
             <div className="col-md-4 col-sm-12 col-xs-12">
               <div className="sidebar">
@@ -603,7 +590,7 @@ function PageWrapper(props) {
         <div className="ft-copyright">
           <div className="ft-left">
             <p>
-              <a target="_blank" href="https://www.templateshub.net">
+              <a target="_blank" href="https://www.templateshub.net" rel="noreferrer">
                 Templates Hub
               </a>
             </p>
