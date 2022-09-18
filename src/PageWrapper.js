@@ -146,7 +146,7 @@ function PageWrapper(props) {
         </div>
       </div>
 
-      <header classNameName="ht-header">
+      <header className="ht-header">
         <div className="container">
           <nav className="navbar navbar-default navbar-custom">
             <div className="navbar-header logo">
